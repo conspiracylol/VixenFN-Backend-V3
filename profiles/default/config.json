@@ -1,0 +1,54 @@
+{
+    "Character": {
+        "ID": "CID_028_Athena_Commando_F",
+        "Variants": [{"variants": []}]
+    },
+    "Backpack": {
+        "ID": "BID_004_BlackKnight",
+        "Variants": [{"variants": []}]
+    },
+    "Glider": {
+        "ID": "Glider_Warthog",
+        "Variants": [{"variants": []}]
+    },
+    "Pickaxe": {
+        "ID": "Pickaxe_Lockjaw",
+        "Variants": [{"variants": []}]
+    },
+    "SkyDiveContrail": {
+        "ID": null,
+        "Variants": [{"variants": []}]
+    },
+    "Dance": {
+        "ID": [null, null, null, null, null],
+        "Variants": [{"variants": []}, {"variants": []}, {"variants": []}, {"variants": []}, {"variants": []}]
+    },
+    "ItemWrap": {
+        "ID": [null, null, null, null, null],
+        "Variants": [{"variants": []}, {"variants": []}, {"variants": []}, {"variants": []}, {"variants": []}]
+    },
+    "MusicPack": {
+        "ID": null,
+        "Variants": [{"variants": []}]
+    }, 
+    "LoadingScreen": {
+        "ID": null,
+        "Variants": [{"variants": []}]
+    },
+    "BannerIconTemplate": "BRSeason01",
+    "BannerColorTemplate": null,
+    "vbucks": 6969,
+    "level": 46,
+    "crowns": 6969,
+    "battlestars": 0,
+    "alien_style_points": 0,
+    "favorites": {},
+    "gifts": {},
+    "archived": {},
+    "presets": {},
+    "banned": false,
+    "backgroundUrl": "",
+    "banReason": "",
+    "BanMessage": "",
+    "experimentsEnabled": false
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VixenFN Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <style>
+       .input-container {
+            width: 100%;
+            margin-bottom: 1rem;
+        }
+
+        /* Example of using media queries */
+        @media (min-width: 768px) {
+            .flex-container {
+                flex-direction: row;
+            }
+            .bg-green-700 {
+                width: 50%; /* Adjust the width as needed */
+            }
+        }
+        
+    </style>
+</head>
+
+
+<body class="bg-gray-800 text-white">
+    <div class="flex items-center justify-center min-h-screen">
+        <div style="background-color: #1f5c4a;" class="input-container shadow-md rounded-lg p-6 w-80 space-y-4 mr-8">
+            <h2 class="text-xl font-semibold mb-4">Gift Options</h2>
+            <div class="flex flex-col space-y-1">
+                <label for="giftCosmetic" class="text-gray-200">Gift Cosmetic</label>
+                <input type="text" id="giftCosmetic" class="bg-gray-800 border border-gray-600 p-2 rounded focus:outline-none focus:border-blue-500">
+            </div>
+            <div class="flex flex-col space-y-1">
+                <label for="giftMoney" class="text-gray-200">Gift Vbucks</label>
+                <input type="text" id="giftMoney" class="bg-gray-800 border border-gray-600 p-2 rounded focus:outline-none focus:border-blue-500">
+            </div>
+            <label class="flex items-center space-x-1">
+                <input type="radio" id="merge" name="giftType" class="text-blue-500 form-radio">
+                <span>Account Merged</span>
+            </label>
+            <label class="flex items-center space-x-1">
+                <input type="radio" id="report" name="giftType" class="text-blue-500 form-radio">
+                <span>Ban Report</span>
+            </label>
+
+            <label class="flex items-center space-x-1">
+                <input type="radio" id="quest" name="giftType" class="text-blue-500 form-radio">
+                <span>Challenge Completed</span>
+            </label>
+            <label class="flex items-center space-x-1">
+                <input type="radio" id="removed" name="giftType" class="text-blue-500 form-radio">
+                <span>Cosmetic Removed</span>
+            </label>
+            
+            <label class="flex items-center space-x-1">
+                <input type="radio" id="crew" name="giftType" class="text-blue-500 form-radio">
+                <span>Fortnite Crew</span>
+            </label>
+            
+            <label class="flex items-center space-x-1">
+                <input type="radio" id="levelUp" name="giftType" class="text-blue-500 form-radio">
+                <span>Level Up</span>
+            </label>
+
+            <label class="flex items-center space-x-1">
+                <input type="radio" id="normal" name="giftType" class="text-blue-500 form-radio">
+                <span>Normal Gift</span>
+            </label>
+
+            <label class="flex items-center space-x-1">
+                <input type="radio" id="raf" name="giftType" class="text-blue-500 form-radio">
+                <span>Reboot a Friend</span>
+            </label>
+
+            <label class="flex items-center space-x-1">
+                <input type="radio" id="restored" name="giftType" class="text-blue-500 form-radio">
+                <span>Support Item Restored</span>
+            </label>
+
+            <label class="flex items-center space-x-1">
+                <input type="radio" id="reward" name="giftType" class="text-blue-500 form-radio">
+                <span>Winterfest Reward</span>
+            </label>
+
+            <label class="flex items-center space-x-1">
+                <input type="radio" id="tournament" name="giftType" class="text-blue-500 form-radio">
+                <span>Won a Tournament</span>
+            </label>
+
+            <button class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded transition duration-300">Apply</button>
+        </div>
+
+        <div style="background-color: #1f5c4a;" class="input-container shadow-md rounded-lg p-6 w-80 space-y-4">
+            <h2 class="text-xl font-semibold mb-4">Stat Changer</h2>
+            <div class="flex flex-col space-y-1">
+                <label for="money" class="text-gray-200">Vbucks</label>
+                <input type="text" id="money" class="bg-gray-800 border border-gray-600 p-2 rounded focus:outline-none focus:border-blue-500">
+            </div>
+            <div class="flex flex-col space-y-1">
+                <label for="level" class="text-gray-200">Level</label>
+                <input type="text" id="level" class="bg-gray-800 border border-gray-600 p-2 rounded focus:outline-none focus:border-blue-500">
+            </div>
+            <div class="flex flex-col space-y-1">
+                <label for="crowns" class="text-gray-200">Crowns</label>
+                <input type="text" id="crowns" class="bg-gray-800 border border-gray-600 p-2 rounded focus:outline-none focus:border-blue-500">
+            </div>
+            <button class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded transition duration-300">Apply</button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VixenFN Dashboard</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-800 text-white">
+    <div class="flex flex-col items-center justify-center min-h-screen">
+        <h1 class="text-4xl font-bold mb-4">VixenFN Dashboard</h1>
+        
+        <div class="bg-green-700 shadow-md rounded-lg p-6 w-80 space-y-4">
+            <div class="flex flex-col space-y-1">
+                <label for="money" class="text-gray-200">Vbucks</label>
+                <input type="text" id="money" class="bg-gray-800 border border-gray-600 p-2 rounded focus:outline-none focus:border-blue-500">
+            </div>
+
+            <div class="flex flex-col space-y-1">
+                <label for="level" class="text-gray-200">Level</label>
+                <input type="text" id="level" class="bg-gray-800 border border-gray-600 p-2 rounded focus:outline-none focus:border-blue-500">
+            </div>
+
+            <div class="flex flex-col space-y-1">
+                <label for="crowns" class="text-gray-200">Crowns</label>
+                <input type="text" id="crowns" class="bg-gray-800 border border-gray-600 p-2 rounded focus:outline-none focus:border-blue-500">
+            </div>
+
+            <button class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded transition duration-300">Apply</button>
+        </div>
+    </div>
+</body>
+</html>
